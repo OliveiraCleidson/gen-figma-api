@@ -22,7 +22,6 @@ type StyleType string
 // List of StyleType
 const (
 	FILL StyleType = "FILL"
-	TEXT StyleType = "TEXT"
 	EFFECT StyleType = "EFFECT"
 	GRID StyleType = "GRID"
 )

@@ -23,7 +23,6 @@ type Navigation string
 const (
 	NAVIGATE Navigation = "NAVIGATE"
 	SWAP Navigation = "SWAP"
-	OVERLAY Navigation = "OVERLAY"
 	SCROLL_TO Navigation = "SCROLL_TO"
 	CHANGE_TO Navigation = "CHANGE_TO"
 )

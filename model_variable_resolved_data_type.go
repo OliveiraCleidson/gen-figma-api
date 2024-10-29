@@ -19,13 +19,7 @@ import (
 // VariableResolvedDataType Defines the types of data a VariableData object can eventually equal
 type VariableResolvedDataType string
 
-// List of VariableResolvedDataType
-const (
-	BOOLEAN VariableResolvedDataType = "BOOLEAN"
-	FLOAT VariableResolvedDataType = "FLOAT"
-	STRING VariableResolvedDataType = "STRING"
-	COLOR VariableResolvedDataType = "COLOR"
-)
+
 
 // All allowed values of VariableResolvedDataType enum
 var AllowedVariableResolvedDataTypeEnumValues = []VariableResolvedDataType{

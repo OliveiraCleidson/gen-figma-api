@@ -21,10 +21,8 @@ type VariableDataType string
 
 // List of VariableDataType
 const (
-	BOOLEAN VariableDataType = "BOOLEAN"
 	FLOAT VariableDataType = "FLOAT"
 	STRING VariableDataType = "STRING"
-	COLOR VariableDataType = "COLOR"
 	VARIABLE_ALIAS VariableDataType = "VARIABLE_ALIAS"
 	EXPRESSION VariableDataType = "EXPRESSION"
 )
